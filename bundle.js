@@ -60,7 +60,12 @@ var Vingador = /*#__PURE__*/function (_Pessoa) {
 }(Pessoa);
 
 var thor = new Vingador("Thor", "1.85", "100kg", ["Deus do Trovão", "Super força", "Vôo", "Longevidade"], true, true, false);
+var sentry = new Vingador("Sentry", "1.90", "90kg", ["Super força", "Super velocidade", "Vôo", "Intangibilidade", "Geração de campos de força"], false, false, false);
 
 document.getElementById("lutar").onclick = function () {
-  thor.lutar();
-};
+  sentry.lutar();
+}; ///adicionar vingadores favoritos
+///trabalhar no front
+/// adicionar imagem do avenger
+/// compara com o Batman
+/// mostrar se vence o batman (FALSE)

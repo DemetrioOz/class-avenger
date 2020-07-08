@@ -40,6 +40,28 @@ const thor = new Vingador(
   false
 );
 
+const sentry = new Vingador(
+  "Sentry",
+  "1.90",
+  "90kg",
+  [
+    "Super força",
+    "Super velocidade",
+    "Vôo",
+    "Intangibilidade",
+    "Geração de campos de força",
+  ],
+  false,
+  false,
+  false
+);
+
 document.getElementById("lutar").onclick = function () {
-  thor.lutar();
+  sentry.lutar();
 };
+
+///adicionar vingadores favoritos
+///trabalhar no front
+/// adicionar imagem do avenger
+/// compara com o Batman
+/// mostrar se vence o batman (FALSE)
