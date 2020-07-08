@@ -60,6 +60,7 @@ document.getElementById("lutar").onclick = function () {
   sentry.lutar();
 };
 
+/// proximas tarefas
 ///adicionar vingadores favoritos
 ///trabalhar no front
 /// adicionar imagem do avenger
